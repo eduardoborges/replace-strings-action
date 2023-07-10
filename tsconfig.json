@@ -15,5 +15,12 @@
     "allowSyntheticDefaultImports": true
   },
   "include": ["src", "examples", "*.config.*"],
-  "exclude": ["node_modules", "dist"]
+  "exclude": ["node_modules", "dist"],
+  "ts-node": {
+    "files": true,
+    "transpileOnly": true,
+    "compilerOptions": {
+      "module": "commonjs"
+    }
+  }
 }
