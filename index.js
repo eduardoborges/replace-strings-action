@@ -42,3 +42,5 @@ const run = async () => {
         core.setFailed(error.message);
     }
 }
+
+run();
